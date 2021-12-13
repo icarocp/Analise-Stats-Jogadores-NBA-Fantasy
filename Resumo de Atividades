@@ -1,0 +1,17 @@
+# Analise-Stats-Jogadores-NBA-Fantasy
+Análise geral dos números produzidos pelos jogadores da NBA e coletados de um Fantasy Game. 
+
+# Passo 1 - Importar Dados em CSV 
+OBS: Planilha pode ser baixada e substituída sempre que necessitar atualizar os dados. 
+Foi feito uma mudança na localidade de Português-Brasil para Inglês-EUA, pois os dados vem de um site americano que usa o formato decimal próprio da região. 
+
+# Passo 2 - Transformar dados no editor de Power Query 
+Apenas foi promovido primeiras linhas como cabeçalho. 
+O tipo de Dados foi alterado automaticamente de maneira satisfatória. 
+
+# Passo 3 - Criar Dashboards
+gráficos comparativos, tabelas de rankings, cartões com números de destaque, etc.   *********** Estou nessa fase *************
+
+# Passo 4- Adicionar dados de outros anos
+Baixar planilhas de outros anos e relacionar tabelas. 
+
