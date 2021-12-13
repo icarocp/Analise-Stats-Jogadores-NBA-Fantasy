@@ -5,7 +5,7 @@ Análise geral dos números produzidos pelos jogadores da NBA e coletados de um 
 OBS: Planilha pode ser baixada e substituída sempre que necessitar atualizar os dados. 
 Foi feito uma mudança na localidade de Português-Brasil para Inglês-EUA, pois os dados vem de um site americano que usa o formato decimal próprio da região. 
 
-# Passo 2 - Transformar dados no editor de Power Query 
+# Passo 2 - Transformar dados no editor de Power Query (ETL)
 + Foi promovido primeiras linhas como cabeçalho. 
 + O tipo de Dados foi alterado automaticamente de maneira satisfatória. 
 + A coluna "Position" trouxe o valor agregado flx para todos os jogadores (esse valor é referente à possibilidade de todos eles serem utilizados como reserva na escalação do fantasy). 
@@ -13,7 +13,8 @@ Foi necessário portanto retirar o Flx através da função 'substituir valores'
 Foi necessário também retirar letras 'G','F' e 'C2' ( Também se referem à escalação no fantasy)
 *obs: As posições na NBA são: PG, SG, SF, PF e C. 
 Grande parte dos jogadores vêm com duas posições. Nas análises por posição iremos agrupar ex: PG;PG/SG -> PG  SG;PG/SG;SG/SF -> SG ....... e assim por diante até C;PF/C -> C
-  
++ Foi necessário retirar jogadores que não tiveram minutos jogados
+De 1527 jogadores no total, foi reduzido para 477 jogadores. 
 
 # Passo 3 - Criar Dashboards
 gráficos comparativos, tabelas de rankings, cartões com números de destaque, etc.   *********** Estou nessa fase *************
