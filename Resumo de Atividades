@@ -16,8 +16,8 @@ Portanto iremos analisar apenas com a posição 'de origem'.
 + 1 valor apenas apareceu com position G, esse jogador foi removido do banco. 
 
 # Passo 3 - Criar Dashboards
-gráficos comparativos, tabelas de rankings, cartões com números de destaque, etc.   *********** Estou nessa fase *************
+gráficos comparativos, tabelas de rankings, cartões com números de destaque, etc.  
 
-# Passo 4- Adicionar dados de outros anos
+# Passo 4- Relacionar com outros Bancos de Dados
 Baixar planilhas de outros anos e relacionar tabelas. 
-
+Adicionar Banco de Dados dos Jogos + Boxscore, criar relacionamento.
