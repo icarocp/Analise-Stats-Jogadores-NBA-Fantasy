@@ -13,6 +13,7 @@ De 1527 jogadores no total, foi reduzido para 477 jogadores.
 + Na coluna "Position" foi necessário resgatar apenas a primeira posição de cada jogador, pois todos eles vinham com mais posições. 
 Portanto iremos analisar apenas com a posição 'de origem'.
 *obs: As posições na NBA são: PG, SG, SF, PF e C. 
++ 1 valor apenas apareceu com position G, esse jogador foi removido do banco. 
 
 # Passo 3 - Criar Dashboards
 gráficos comparativos, tabelas de rankings, cartões com números de destaque, etc.   *********** Estou nessa fase *************
